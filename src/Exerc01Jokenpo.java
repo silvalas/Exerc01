@@ -26,7 +26,7 @@ public class Exerc01Jokenpo {
 
 		// Refaz opção do computador se valor for zero
 		if (opcaoComputador < 1) {
-			for (int i = 0; i <= opcaoComputador; i = i + 1) {
+			for (int contador = 0; contador <= opcaoComputador; contador = contador + 1) {
 				if (opcaoComputador < 1) {
 					opcaoComputador = (int) (Math.random() * 4);
 				}
